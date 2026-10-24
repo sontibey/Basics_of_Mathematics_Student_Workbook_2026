@@ -10,9 +10,16 @@ Determinants are multiplicative; if $\det A\ne0$, then $A^{-1}$ exists and $\det
 
 ## Detailed Step-by-Step Solution
 
-$$\det(AB)=3(-5)=\boxed{-15},\qquad \det(BA)=(-5)3=\boxed{-15}.$$
+```math
+\det(AB)=3(-5)=\boxed{-15},\qquad \det(BA)=(-5)3=\boxed{-15}.
+```
+
 Since $\det A=3\ne0$, the inverse exists and
-$$\det(A^{-1}B)=\frac13(-5)=\boxed{-\frac53}.$$
+
+```math
+\det(A^{-1}B)=\frac13(-5)=\boxed{-\frac53}.
+```
+
 The first two determinants are equal because their scalar factors commute. This does not imply that the matrix products themselves are equal.
 
 ## Verification and Consistency Checks

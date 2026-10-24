@@ -2,7 +2,13 @@
 
 ## Problem Statement
 
-Explain without full expansion why $\det M=0$ for $M=\begin{pmatrix}1&2&3\\2&4&6\\0&1&5\end{pmatrix}$ and relate this to noninvertibility.
+Explain without full expansion why $\det M=0$ for
+
+```math
+M=\begin{pmatrix}1&2&3\\2&4&6\\0&1&5\end{pmatrix}
+```
+
+and relate this to noninvertibility.
 
 ## Theoretical Background and Concepts
 
@@ -11,7 +17,11 @@ A square matrix with linearly dependent rows has zero determinant and is not inv
 ## Detailed Step-by-Step Solution
 
 The rows satisfy $R_2=2R_1$, so $R_2-2R_1=0$ is a nontrivial dependence. The determinant-preserving operation $R_2\leftarrow R_2-2R_1$ produces
-$$\begin{pmatrix}1&2&3\\0&0&0\\0&1&5\end{pmatrix}.$$
+
+```math
+\begin{pmatrix}1&2&3\\0&0&0\\0&1&5\end{pmatrix}.
+```
+
 Its determinant is zero, hence $\boxed{\det M=0}$ and $M$ is not invertible.
 
 ## Verification and Consistency Checks

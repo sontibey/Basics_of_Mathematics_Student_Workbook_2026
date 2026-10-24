@@ -2,7 +2,13 @@
 
 ## Problem Statement
 
-Compute $\det A$ for $A=\begin{pmatrix}1&2&3\\2&5&7\\1&0&2\end{pmatrix}$ by elimination, recording each determinant effect.
+Compute $\det A$ for
+
+```math
+A=\begin{pmatrix}1&2&3\\2&5&7\\1&0&2\end{pmatrix}
+```
+
+by elimination, recording each determinant effect.
 
 ## Theoretical Background and Concepts
 
@@ -11,11 +17,23 @@ Row replacement leaves the determinant unchanged. For triangular matrices the de
 ## Detailed Step-by-Step Solution
 
 Apply $R_2\leftarrow R_2-2R_1$ (no change):
-$$\begin{pmatrix}1&2&3\\0&1&1\\1&0&2\end{pmatrix}.$$
+
+```math
+\begin{pmatrix}1&2&3\\0&1&1\\1&0&2\end{pmatrix}.
+```
+
 Apply $R_3\leftarrow R_3-R_1$ (no change):
-$$\begin{pmatrix}1&2&3\\0&1&1\\0&-2&-1\end{pmatrix}.$$
+
+```math
+\begin{pmatrix}1&2&3\\0&1&1\\0&-2&-1\end{pmatrix}.
+```
+
 Apply $R_3\leftarrow R_3+2R_2$ (no change):
-$$\begin{pmatrix}1&2&3\\0&1&1\\0&0&1\end{pmatrix}.$$
+
+```math
+\begin{pmatrix}1&2&3\\0&1&1\\0&0&1\end{pmatrix}.
+```
+
 Thus $\boxed{\det A=1}$, with no sign or scale adjustments.
 
 ## Verification and Consistency Checks

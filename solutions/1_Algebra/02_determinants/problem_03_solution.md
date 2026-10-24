@@ -2,7 +2,13 @@
 
 ## Problem Statement
 
-Compute the determinant of $A=\begin{pmatrix}1&2&0\\0&3&1\\2&1&1\end{pmatrix}$. Predict and calculate the determinant of $B$ obtained by swapping rows 1 and 2.
+Compute the determinant of
+
+```math
+A=\begin{pmatrix}1&2&0\\0&3&1\\2&1&1\end{pmatrix}
+```
+
+Predict and calculate the determinant of $B$ obtained by swapping rows 1 and 2.
 
 ## Theoretical Background and Concepts
 
@@ -10,9 +16,16 @@ A single row interchange multiplies the determinant by $-1$. Cofactor expansion 
 
 ## Detailed Step-by-Step Solution
 
-$$\det A=1(3\cdot1-1\cdot1)-2(0\cdot1-1\cdot2)=2+4=6.$$
+```math
+\det A=1(3\cdot1-1\cdot1)-2(0\cdot1-1\cdot2)=2+4=6.
+```
+
 The swapped matrix is
-$$B=\begin{pmatrix}0&3&1\\1&2&0\\2&1&1\end{pmatrix}.$$
+
+```math
+B=\begin{pmatrix}0&3&1\\1&2&0\\2&1&1\end{pmatrix}.
+```
+
 Before calculating, the row-swap rule predicts $\det B=-6$.
 
 ## Verification and Consistency Checks

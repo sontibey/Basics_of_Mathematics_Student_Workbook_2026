@@ -11,9 +11,17 @@ Use multiplicativity for the three-factor product, then the inverse determinant 
 ## Detailed Step-by-Step Solution
 
 First separate the factors:
-$$\det(B^{-1}A^TB)=\det(B^{-1})\det(A^T)\det B.$$
+
+```math
+\det(B^{-1}A^TB)=\det(B^{-1})\det(A^T)\det B.
+```
+
 Since $B$ is invertible, $\det(B^{-1})=1/\det B=1/3$. Transposition gives $\det(A^T)=\det A=-2$. Hence
-$$\det(B^{-1}A^TB)=\frac13(-2)3=\boxed{-2}.$$
+
+```math
+\det(B^{-1}A^TB)=\frac13(-2)3=\boxed{-2}.
+```
+
 The factors involving $B$ cancel because they are reciprocal nonzero scalar determinants: $(\det B)^{-1}\det B=1$. No commutativity of the matrices is assumed.
 
 ## Verification and Consistency Checks

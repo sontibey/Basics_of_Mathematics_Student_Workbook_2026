@@ -3,10 +3,12 @@
 ## Problem Statement
 
 Given
-$$
+
+```math
 A=\begin{pmatrix}2&-1&3\\0&4&5\end{pmatrix},\qquad
 B=\begin{pmatrix}1&0\\-2&3\\4&1\end{pmatrix},
-$$
+```
+
 state their sizes, identify $a_{12}$, $a_{23}$, $b_{21}$ and $b_{32}$, and write the second row of $A$ and the first column of $B$ as vectors.
 
 ## Theoretical Background and Concepts
@@ -17,11 +19,22 @@ A matrix with $m$ rows and $n$ columns has size $m\times n$. The entry $a_{ij}$ 
 
 1. $A$ has 2 rows and 3 columns, so its size is $2\times3$. $B$ has 3 rows and 2 columns, so its size is $3\times2$.
 2. Reading the indicated row and column gives
-   $$a_{12}=-1,\qquad a_{23}=5,\qquad b_{21}=-2,\qquad b_{32}=1.$$
+
+   ```math
+   a_{12}=-1,\qquad a_{23}=5,\qquad b_{21}=-2,\qquad b_{32}=1.
+   ```
+
 3. The second row of $A$ is the row vector
-   $$\begin{pmatrix}0&4&5\end{pmatrix}.$$
+
+   ```math
+   \begin{pmatrix}0&4&5\end{pmatrix}.
+   ```
+
    The first column of $B$ is the column vector
-   $$\begin{pmatrix}1\\-2\\4\end{pmatrix}.$$
+
+   ```math
+   \begin{pmatrix}1\\-2\\4\end{pmatrix}.
+   ```
 
 ## Verification and Consistency Checks
 

@@ -10,11 +10,18 @@ The signed area is $\det[u\ v]$. The geometric area is its absolute value. Swapp
 
 ## Detailed Step-by-Step Solution
 
-$$\det[u\ v]=\det\begin{pmatrix}3&1\\1&4\end{pmatrix}=3\cdot4-1\cdot1=11.$$
+```math
+\det[u\ v]=\det\begin{pmatrix}3&1\\1&4\end{pmatrix}=3\cdot4-1\cdot1=11.
+```
+
 Therefore the area is $\boxed{11}$ square units.
 
 Reversing the order gives
-$$\det[v\ u]=\det\begin{pmatrix}1&3\\4&1\end{pmatrix}=1-12=-11.$$
+
+```math
+\det[v\ u]=\det\begin{pmatrix}1&3\\4&1\end{pmatrix}=1-12=-11.
+```
+
 The orientation reverses, but the geometric area remains $|-11|=11$.
 
 ## Verification and Consistency Checks
